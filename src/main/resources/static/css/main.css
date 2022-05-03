@@ -1,0 +1,33 @@
+.container,
+.fun,
+.buttons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    inline-size: max-content;
+}
+
+.cord {
+    width: 10%;
+    height: 10%;
+}
+
+.one,
+.two,
+.third,
+.zero {
+    animation: 1s spin infinite linear;
+    animation-name: spin-direct;
+}
+
+@keyframes spin-direct {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin-forward {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
